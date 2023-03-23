@@ -1,0 +1,67 @@
+khaleelahmedhm@gmail.com 9845007864
+
+https://grpc.io/docs/languages/python/quickstart/
+
+set ts=4
+set expand
+
+
+DAY=input("Enter the day : ")
+
+
+
+if DAY == "monday"  or DAY == "tuesday" or  DAY == "wednesday"  or DAY == "thursday" or DAY == "friday"  :
+    print("9:00AM to  5:30PM")
+elif DAY=="saturday" :
+    print("9:00AM to  1:00PM")
+elif DAY=="sunday" :
+    print("Its Holiday")
+
+
+
+
+workdays=["monday","tuesday","wednesday","thursday","friday"]
+var=input("Enter the day : ")
+DAY=var.lower()
+if DAY in workdays :
+    print("9:00AM to  5:30PM")
+elif DAY=="saturday" :
+    print("9:00AM to  1:00PM")
+elif DAY=="sunday" :
+    print("Its Holiday")
+
+
+Deep copy and Shallow copy
+
+
+
+
+
+
+
+
+#!/usr/bin/python
+a, b, c, d = 10, 20, 30, 40
+def funA():
+    a, b, c=100, 200, 300
+    print
+
+def gen2(n): ... ctr=1 ... ctr=0 ... lst=list(range(n)) ... while True: ... if ctr==n: ... return ... ctr+=1 ... yield lst[ctr] ... >>> gn2=gen2(100) >>> gn2.__next__() 1 >>> gn2.__next__() 2 >>> gn2.__next__()
+from Khaleel - Trainer to Everyone16:59
+>>> count=9 >>> while count < 100: ... gn2.__next__() ... count+=1
+Send to:
+
+python -m pdb python_script
+automating debugging
+condition 1 ctr>=8534 and ctr <= 8560,
+
+
+perl notes .
+
+
+unless(){}
+
+grpc module..
+
+
+

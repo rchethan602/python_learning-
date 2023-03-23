@@ -1,0 +1,4 @@
+%scores=("sachin",102,"sehwag",82,"kapil",90);
+foreach $player (keys %scores) {
+  print ("$scores{$player} \n");
+}
